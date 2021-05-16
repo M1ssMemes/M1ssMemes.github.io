@@ -225,6 +225,7 @@ ol li::before {
 .question-container{
   display: flex;
   align-items: center;
+  margin-top: 65px;
 }
 
 .question {
@@ -235,6 +236,20 @@ ol li::before {
   line-height: 33px;
   color: #666666;
   margin: 0 0 0 19px ;
+}
+
+input[type="radio"] {   
+  width: 50px ;
+}
+
+.question-item {
+  font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+color: #878787;
+
 }
 
 .footer-wrapper {

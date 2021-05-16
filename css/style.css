@@ -13,13 +13,13 @@
 }
 
 body {
-    min-width: 1440px;
+  min-width: 1440px;
 }
 
 .container {
   width: 1260px;
   height: auto;
-  border-right: 3px solid #F2B9CC ;
+  border-right: 3px solid #F2B9CC;
   border-left: 3px solid #F2B9CC;
 }
 
@@ -55,6 +55,27 @@ body {
   color: #A1AE25;
 }
 
+.shoes-p2 {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  text-align: left;
+  color: #A1AE25;
+  margin-bottom: 0px;
+}
+
+.please {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #7A7A7A;
+  padding-top: 17px;
+  text-align: left;
+}
+
 .tag {
   color: rgba(255, 110, 157, 0.7);
 }
@@ -85,6 +106,25 @@ body {
   display: flex;
   flex-direction: row;
   padding-top: 76px;
+}
+
+.row-p2 {
+  display: flex;
+  flex-direction: row;
+  padding-top: 35px;
+  padding-left: 139px;
+  padding-right: 88px;
+}
+
+.col-p2 {
+  padding-top: 32px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.col2-p2 {
+  padding-left: 136px;
 }
 
 .button {
@@ -150,7 +190,7 @@ li {
 ol li::before {
   content: counter(myCounter);
   counter-increment: myCounter;
-  color: black;
+  color: #000000;
   display: inline-block;
   text-align: center;
   margin: 5px 10px;
@@ -159,7 +199,6 @@ ol li::before {
   height: 61px;
   border-radius: 50%;
   background: #FF6E9D;
-  border-radius: 50%;
   font-size: 25px;
   line-height: 30px;
   margin-right: 30px;
@@ -167,9 +206,41 @@ ol li::before {
   margin-bottom: 40px;
 }
 
+.circle {
+  font-family: Montserrat;
+  font-style: normal;
+  height: 74px;
+  width: 74px;
+  border-radius: 50%;
+  background-color: rgba(161, 174, 37, 0.5);
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: normal;
+  font-size: 27px;
+  vertical-align: center;
+  line-height: 33px;
+  padding-top: 20px;
+}
+
+.question-container{
+  display: flex;
+  align-items: center;
+}
+
+.question {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  color: #666666;
+  margin: 0 0 0 19px ;
+}
+
 .footer-wrapper {
   background: linear-gradient(0deg, #F2B9CC 0%, rgba(255, 255, 255, 0) 100%);
 }
+
 .footer-content {
   color: #000000;
   margin-top: unset;
@@ -199,6 +270,6 @@ p {
   text-align: center;
 }
 
-.hui {
+.rgy {
   margin-top: 45px;
 }

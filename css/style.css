@@ -158,6 +158,15 @@ body {
   margin-top: 60px;
 }
 
+.button-end-2 {
+  width: 240px;
+  height: 83px;
+  margin-top: 100px;
+  margin-left: 500px;
+  font-size: 20px;
+  line-height: 24px;
+}
+
 .flex-container-center {
   display: flex;
   align-items: center;
@@ -225,10 +234,32 @@ ol li::before {
   padding-top: 20px;
 }
 
+.anchor {
+  display: block;
+  height: 300px;
+  margin-top: -300px;
+  visibility: hidden;
+}
+
+.line {
+  margin-top: 70px;
+  margin-left: 570px;
+  width: 82px;
+  height: 0;
+  border: 1px solid #F7D2DE;
+  margin-bottom: 147px;
+}
+
 .question-container {
   display: flex;
   align-items: center;
   margin-top: 65px;
+}
+
+.question-container-2 {
+  display: flex;
+  align-items: center;
+  margin-left: 139px;
 }
 
 .question {
@@ -253,21 +284,34 @@ ol li::before {
   padding-top: 67px;
 }
 
+.question-item-2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 21px;
+  display: block;
+  padding-left: 260px;
+  align-items: center;
+}
+
 .radio-group {
   display: flex;
   align-items: center;
   margin-right: 54px;
+  padding-bottom: 31px;
 }
 
 .radio-group:last-child {
   margin-right: 0;
 }
 
-.sex-selector {
+.selector {
   visibility: hidden;
   width: 0;
   height: 0;
 }
+
 .marked {
   display: none;
   width: 52px;
@@ -282,14 +326,35 @@ ol li::before {
   margin-right: 12px;
 }
 
-.sex-selector:checked ~ .marked {
-  display: block;
-
+.page3{
+  display: flex;
 }
 
-.sex-selector:checked ~ .unmarked {
+.selector:checked~.marked {
+  display: block;
+}
+
+.selector:checked~.unmarked {
   display: none;
 }
+
+.scroll {
+  margin-top: 81px;
+}
+
+.scroll-button {
+  margin-left: 800px;
+}
+
+.scroll-button-2 {
+  margin-left: 742px;
+  display: flex;
+}
+
+.left-scroll {
+  margin-right: 6px;
+}
+
 
 .footer-wrapper {
   background: linear-gradient(0deg, #F2B9CC 0%, rgba(255, 255, 255, 0) 100%);

@@ -17,8 +17,8 @@
     </div>
   </nav>
   <div class="container">
-    <div class="row-p2">
-      <div class="col col-p2">
+    <div class="content-row">
+      <div class="column-left">
         <div class="preview-p2">
           <p class="shoes-p2">ПОДБОР ОБУВИ</p>
           <p class="please">Пожалуйста, постарайтесь отвечать на вопросы честно, чтобы <br> мы смогли подобрать для вас
@@ -31,11 +31,21 @@
           <p class="question"> Выберите ваш пол:</p>
         </div>
         <div class="question-item">
-          <input type="radio" name="sex" id="male"> Мужской
-          <input type="radio" name="sex" id="female"> Женский
+          <label class="radio-group">
+            <input class="sex-selector" type="radio" name="sex" id="male">
+            <img class="unmarked" src="images/unmarked.svg" alt="">
+            <img class="marked" src="images/marked.svg" alt="">
+            <span>Мужской</span>
+          </label>
+          <label class="radio-group">
+            <input class="sex-selector" type="radio" name="sex" id="female">
+            <img class="unmarked" src="images/unmarked.svg" alt="">
+            <img class="marked" src="images/marked.svg" alt="">
+            <span>Женский</span>
+          </label>
         </div>
       </div>
-      <div class="col2-p2">
+      <div class="column-right">
         <img src="images/legs.svg" alt="" />
       </div>
     </div>

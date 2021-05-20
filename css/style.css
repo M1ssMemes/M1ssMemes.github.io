@@ -331,7 +331,7 @@ ol li::before {
   margin-right: 12px;
 }
 
-.page3{
+.page3 {
   display: flex;
 }
 
@@ -349,15 +349,19 @@ ol li::before {
 
 .scroll-button {
   margin-left: 800px;
+  width: 52px;
+  
 }
 
 .scroll-button-2 {
   margin-left: 742px;
   display: flex;
+  
 }
 
 .left-scroll {
   margin-right: 6px;
+  height: 52px;
 }
 
 

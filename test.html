@@ -16,6 +16,7 @@
       <a class="contacts nav-link" href="#contacts">Контакты</a>
     </div>
   </nav>
+  <form >
   <div class="container">
     <div class="content-row">
       <div class="column-left">
@@ -33,13 +34,13 @@
         </div>
         <div class="question-item">
           <label class="radio-group">
-            <input class="selector" type="radio" name="sex" id="male">
+            <input class="selector" type="radio" name="sex" id="male" value="male">
             <img class="unmarked" src="images/unmarked.svg" alt="">
             <img class="marked" src="images/marked.svg" alt="">
             <span>Мужской</span>
           </label>
           <label class="radio-group">
-            <input class="selector" type="radio" name="sex" id="female">
+            <input class="selector" type="radio" name="sex" id="female" value="female">
             <img class="unmarked" src="images/unmarked.svg" alt="">
             <img class="marked" src="images/marked.svg" alt="">
             <span>Женский</span>
@@ -66,19 +67,19 @@
     </div>
     <div class="question-item-2">
       <label class="radio-group">
-        <input class="selector" type="radio" name="deformation" id="flat-feet">
+        <input class="selector" type="radio" name="deformation" id="flat-feet" value="flat-feet">
         <img class="unmarked" src="images/unmarked.svg" alt="">
         <img class="marked" src="images/marked.svg" alt="">
         <span>Плоскостопие (продольное/ поперечное)</span>
       </label>
       <label class="radio-group">
-        <input class="selector" type="radio" name="deformation" id="valgus">
+        <input class="selector" type="radio" name="deformation" id="valgus" value="valgus">
         <img class="unmarked" src="images/unmarked.svg" alt="">
         <img class="marked" src="images/marked.svg" alt="">
         <span>Вальгусная деформация</span>
       </label>
       <label class="radio-group">
-        <input class="selector" type="radio" name="deformation" id="No">
+        <input class="selector" type="radio" name="deformation" id="No" value="no-deformation">
         <img class="unmarked" src="images/unmarked.svg" alt="">
         <img class="marked" src="images/marked.svg" alt="">
         <span>Нет, у меня нет деформации стоп</span>
@@ -167,8 +168,9 @@
         <a href="#section3"><img src="images/scroll-up.svg" alt="" class="left-scroll"></a>
       </div>
     </div>
-    <button class="button button-end-2" onclick="document.location='result.html'">Завершить</button>
+    <button class="button button-end-2" input type="submit" onclick="document.location='result.html'">Завершить</button>
   </div>
+</form>
   <footer class="footer-wrapper">
     <div class="flex-container-center footer-content">
       <div>
